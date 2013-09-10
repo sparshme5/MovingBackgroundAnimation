@@ -16,10 +16,11 @@
 		2B0C686B17D1E73300AC5856 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C686A17D1E73300AC5856 /* Default.png */; };
 		2B0C686D17D1E73300AC5856 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C686C17D1E73300AC5856 /* Default@2x.png */; };
 		2B0C686F17D1E73300AC5856 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C686E17D1E73300AC5856 /* Default-568h@2x.png */; };
-		2B0C687C17D1E74D00AC5856 /* hexa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C687B17D1E74D00AC5856 /* hexa.png */; };
 		2B0C687F17D1E75B00AC5856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C687E17D1E75B00AC5856 /* ViewController.m */; };
 		2B0C688117D1E76100AC5856 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C688017D1E76100AC5856 /* ViewController.xib */; };
-		2B0C688417D1E76800AC5856 /* Hexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C688317D1E76800AC5856 /* Hexagon.m */; };
+		2B0C688817D20EBD00AC5856 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0C688717D20EBD00AC5856 /* QuartzCore.framework */; };
+		2B51D41B17DF25EA001C970F /* Hexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51D41A17DF25EA001C970F /* Hexagon.m */; };
+		2B51D41D17DF26B4001C970F /* smiley.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B51D41C17DF26B4001C970F /* smiley.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +37,13 @@
 		2B0C686A17D1E73300AC5856 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2B0C686C17D1E73300AC5856 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2B0C686E17D1E73300AC5856 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2B0C687B17D1E74D00AC5856 /* hexa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexa.png; sourceTree = "<group>"; };
 		2B0C687D17D1E75B00AC5856 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B0C687E17D1E75B00AC5856 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B0C688017D1E76100AC5856 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		2B0C688217D1E76800AC5856 /* Hexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexagon.h; sourceTree = "<group>"; };
-		2B0C688317D1E76800AC5856 /* Hexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexagon.m; sourceTree = "<group>"; };
+		2B0C688717D20EBD00AC5856 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B51D41917DF25EA001C970F /* Hexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexagon.h; sourceTree = "<group>"; };
+		2B51D41A17DF25EA001C970F /* Hexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexagon.m; sourceTree = "<group>"; };
+		2B51D41C17DF26B4001C970F /* smiley.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smiley.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0C688817D20EBD00AC5856 /* QuartzCore.framework in Frameworks */,
 				2B0C685917D1E73200AC5856 /* UIKit.framework in Frameworks */,
 				2B0C685B17D1E73200AC5856 /* Foundation.framework in Frameworks */,
 				2B0C685D17D1E73200AC5856 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +81,7 @@
 		2B0C685717D1E73200AC5856 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B0C688717D20EBD00AC5856 /* QuartzCore.framework */,
 				2B0C685817D1E73200AC5856 /* UIKit.framework */,
 				2B0C685A17D1E73200AC5856 /* Foundation.framework */,
 				2B0C685C17D1E73200AC5856 /* CoreGraphics.framework */,
@@ -93,9 +97,9 @@
 				2B0C687D17D1E75B00AC5856 /* ViewController.h */,
 				2B0C687E17D1E75B00AC5856 /* ViewController.m */,
 				2B0C688017D1E76100AC5856 /* ViewController.xib */,
-				2B0C688217D1E76800AC5856 /* Hexagon.h */,
-				2B0C688317D1E76800AC5856 /* Hexagon.m */,
-				2B0C687B17D1E74D00AC5856 /* hexa.png */,
+				2B51D41917DF25EA001C970F /* Hexagon.h */,
+				2B51D41A17DF25EA001C970F /* Hexagon.m */,
+				2B51D41C17DF26B4001C970F /* smiley.jpeg */,
 				2B0C685F17D1E73200AC5856 /* Supporting Files */,
 			);
 			path = MovingBackgroundAnimation;
@@ -170,8 +174,8 @@
 				2B0C686B17D1E73300AC5856 /* Default.png in Resources */,
 				2B0C686D17D1E73300AC5856 /* Default@2x.png in Resources */,
 				2B0C686F17D1E73300AC5856 /* Default-568h@2x.png in Resources */,
-				2B0C687C17D1E74D00AC5856 /* hexa.png in Resources */,
 				2B0C688117D1E76100AC5856 /* ViewController.xib in Resources */,
+				2B51D41D17DF26B4001C970F /* smiley.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +189,7 @@
 				2B0C686517D1E73300AC5856 /* main.m in Sources */,
 				2B0C686917D1E73300AC5856 /* AppDelegate.m in Sources */,
 				2B0C687F17D1E75B00AC5856 /* ViewController.m in Sources */,
-				2B0C688417D1E76800AC5856 /* Hexagon.m in Sources */,
+				2B51D41B17DF25EA001C970F /* Hexagon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				2B0C687A17D1E73300AC5856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

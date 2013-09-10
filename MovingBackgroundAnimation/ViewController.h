@@ -8,14 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "Hexagon.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController{
     
+    //Background moving animation
+    NSMutableArray *arrayForImageView;
 }
 
--(void)LoadHexagonOnscreen;
+//Background moving animation
 @property (strong, nonatomic) NSTimer* timer;
-@property (strong, nonatomic) Hexagon* HexagonImageView;
-@property (strong, nonatomic) Hexagon* HexagonImageView2;
+-(void)LoadHexagonOnscreen;
+-(void) UpdateHexaPosition;
 
 @end

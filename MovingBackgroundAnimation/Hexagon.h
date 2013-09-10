@@ -19,7 +19,5 @@
 @property (nonatomic) float xStretch;
 @property (nonatomic) float yStretch;
 
-- (void) updateBallCenter;
-- (void) updateSpeed: (int) speed;
 
 @end
